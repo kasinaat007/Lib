@@ -5,12 +5,14 @@
 #define sf(n)                       scanf("%lf",&n)
 #define ss(n)                       scanf("%s",n)
 // Useful constants
+#define lli                         long long int
 #define INF                         (int)1e9
 #define EPS                         1e-9
 // Useful hardware instructions
 #define bitcount                    __builtin_popcount
 #define gcd                         __gcd
 // Useful container manipulation / traversal macros
+#define vi vector<int>
 #define forall(i,a,b)               for(int i=a;i<b;i++)
 #define foreach(v, c)               for( typeof( (c).begin()) v = (c).begin();  v != (c).end(); ++v)
 #define all(a)                      a.begin(), a.end()
